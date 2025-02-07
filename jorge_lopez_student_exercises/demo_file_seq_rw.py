@@ -13,7 +13,7 @@ movies = {
     'mahendran': ['titanic', 'rambo', 'men in black'],
 }
 
-fh_out = open(r"/student_exercises/movies.txt", mode="wt")
+fh_out = open(r"/jorge_lopez_student_exercises/movies.txt", mode="wt")
 
 # Iterate
 for name in movies.keys():
@@ -25,7 +25,7 @@ for name in movies.keys():
 fh_out.close()
 
 print("-" * 60)
-fh_in = open(r"/student_exercises/movies.txt", mode="rt")
+fh_in = open(r"/jorge_lopez_student_exercises/movies.txt", mode="rt")
 
 # text = fh_in.read() # Read entire file into string object
 # text = fh_in.read(30) # Read entire file into string object
